@@ -164,7 +164,7 @@
                 <div class="project-box">
                     <img src="images/image7.jpg">
                     <div class="project-desc">
-                        <a href="https://saralampudi.github.io/html/" target="-blank">
+                        <a href=" https://saralampudi.github.io/html/" target="_blank">
                             <button class="btn project-desc-btn">Html and css</button>
                         </a>
                     </div>
@@ -288,21 +288,22 @@
                 </div>
     
             </div>
-           <form class="contact-form">
+           <form action="https://api.web3forms.com/submit"    class="contact-form" method="POST">
+            <input type="hidden" name="access_key" value="ac4203be-16c9-496f-8c47-4b2f54c7b9a9">
                 <div class="input-element name-input">
-                    <input type="text" required="required" placeholder="Your Name">
+                    <input type="text" required="required" placeholder="Your Name" name="text" required>
                 </div>
     
                 <div class="input-element email-input">
-                    <input type="email" required="required" placeholder="Your Email">
+                    <input type="email" required="required" placeholder="Your Email" name="text" required>
                 </div>
     
                 <div class="text-area">
-                    <textarea required="required" placeholder="Your Message"></textarea>
+                    <textarea required="required" placeholder="Your Message" name="text" required></textarea>
                 </div>
     
                 <div class="form-button-container">
-                    <input type="button" value="Send Message" class="btn form-btn">
+                    <input type="submit" value="Send Message" class="btn form-btn">
                 </div>
             </form>
             
@@ -311,7 +312,7 @@
         
     </div>
     </section>
-
+    <script src="https://web3forms.com/client/script.js" async defer></script>
     
 </body>
 </html>
